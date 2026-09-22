@@ -9,3 +9,10 @@ RELEASE_NOTE.md
 *.tfstate
 *.tfstate.*
 *.tfplan
+
+# SSH private key tự sinh bởi Terraform (aws/terraform)
+*.pem
+
+# Biến có thể chứa giá trị nhạy cảm, ở bất kỳ thư mục nào trong repo
+*.tfvars
+*.tfvars.json
