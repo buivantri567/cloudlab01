@@ -1,1 +1,11 @@
 .env
+.env.env
+
+# Chứa thông tin hạ tầng thật (IP, domain, lỗ hổng chưa vá) - không đăng công khai
+RELEASE_NOTE.md
+
+# Terraform: cache/provider và state cục bộ, ở bất kỳ thư mục nào trong repo
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan

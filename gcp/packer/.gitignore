@@ -1,0 +1,7 @@
+# Biến có thể chứa giá trị nhạy cảm
+*.pkrvars.hcl
+*.auto.pkrvars.hcl
+
+# Log và manifest sinh ra khi build
+packer-manifest.json
+crash.log

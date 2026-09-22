@@ -1,0 +1,11 @@
+# Provider plugin và cache cục bộ
+.terraform/
+
+# State cục bộ (state thật nằm trong GCS) và file plan
+*.tfstate
+*.tfstate.*
+*.tfplan
+
+# Biến có thể chứa giá trị nhạy cảm
+*.tfvars
+*.tfvars.json
